@@ -1,0 +1,23 @@
+{
+  "name": "liff-bridge123",
+  "version": "1.0.0",
+  "description": "LIFF to GAS bridge for LINE ID checking",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'No build step required'",
+    "start": "echo 'This is a serverless app'"
+  },
+  "keywords": [
+    "line",
+    "liff",
+    "vercel",
+    "serverless",
+    "gas"
+  ],
+  "author": "mokeno1109",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
