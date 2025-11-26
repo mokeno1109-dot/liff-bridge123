@@ -27,7 +27,7 @@ export default async function handler(req, res) {
           
           // 「ID確認」メッセージに反応
           if (messageText.includes('ID') || messageText.includes('確認')) {
-            const vercelUrl = `https://${req.headers.host}/lineId?lineId=${encodeURIComponent(userId)}`;
+            const vercelUrl = `https://${req.headers.host}/api/lineId?lineId=${encodeURIComponent(userId)}`;
             
             // LINE Messaging APIで返信
             const replyMessage = {
